@@ -1,10 +1,8 @@
 # afmd_proc: 快速处理AFM数据Matlab小工具库
 
-本项目旨在为快速读取和处理AFM数据提供Matlab函数或脚本。
-
-仅供南开大学人工智能学院微纳系统控制实验室使用。
-
-afmd 是 Atomic Force Microscope Data 的缩写， proc是process的缩写。
+* 本项目旨在为快速读取和处理AFM数据提供Matlab函数或脚本。
+* 仅供南开大学人工智能学院微纳系统控制实验室使用。
+* afmd 是 Atomic Force Microscope Data 的缩写， proc是process的缩写。
 
 ## 当前支持的功能
 
