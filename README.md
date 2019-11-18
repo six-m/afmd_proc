@@ -46,7 +46,7 @@ afmd_level 对形貌图像进行level操作(去漂移与去斜面)
 输入： 	topography  原始形貌图像
       	method  level方法，可选 'linefit', 'subfit'(仅拟合基底，参考《提高原子力显微镜成像性能的若干方法研究》 2.4节)
       	std_thres  标准差阈值，使用'subfit'时使用
-输出 ： 	leveled_toop level后的形貌图像
+输出 ：	leveled_toop level后的形貌图像
 example: leveled_topo = afmd_level(topo) % 默认使用'linefit'
          leveld_topo = afmd_level(topo,'subfit') % 默认std_thres 为0.01
 ```
