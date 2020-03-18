@@ -63,6 +63,19 @@ afmd_imshow 自动对z轴数据缩放以显示图像
 example:  afmd_imshow(image)
 ```
 
+### afmd_read_prev
+
+函数原型： function [data, param] = afmd_read_prev(filename, filetype, prevtype)
+```
+afmd_read 读取文件 并预览形貌图像
+   输入 ： filename 文件名
+           filetype 文件类型，可选'matrix', 'afm_ar', 默认为'afm_ar'
+           prevtype 预览图像类型，暂默认且只能为'vzf'，即预览形貌图像
+   输出 ： data 结构体
+           param 结构体， 扫描参数
+   example : [data, param] = afmd_read('20191114_164921.data', 'afm_ar');
+```
+
 ## 如何贡献代码？
 
 测试完成后联系我merge到master分支。

@@ -25,5 +25,6 @@ function [] = afmd_imshow(image, fig_id, colorbar_title, colormap)
     set(get(h,'title'),'string',colorbar_title);
     
     set(gca,'fontSize',12);
+    set(gca, 'fontName', 'Times New Roman');
 end
 
